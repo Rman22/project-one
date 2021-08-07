@@ -11,40 +11,43 @@
 </head>
 <body>
     <!--Section 1-->
-    <div class="section-one bg-center bg-fixed bg-cover" style="background-image: url(img/nature-bg.jpg)">
+    <div class="">
+    <div class="section-one  bg-fixed bg-cover" style="background-image: url(img/nature-bg.jpg)">
         <!---Header logo and menu here-->
-            <div class="section-one-header flex items-center ">
-                <div class="logo h-12 w-1/6 m-10 cursor-pointer">
-                        <img src="img/logo.png" alt="">
+            <div class="section-one-header  flex items-center justify-center grid grid-cols-2 mx-6 sm:mx-10 pt-6 ">
+                <div class="logo cursor-pointer">
+                        <img class="sm:w-40 h-16 object-contain w-24 " src="img/logo.png" alt="">
                 </div>
-                    <div class="right-top-menu flex items-center ml-auto w-48 h-16 justify-around">
+                <div class="right-top-menu  flex justify-end items-center ">
                         
-                        <div class="menu-text text-green-400 ml-12 cursor-pointer hover:text-white">
+                        <div class="menu-text text-green-400  cursor-pointer hover:text-white">
                                 MENU
                         </div> 
-                        <div class="menu-burger text-white mr-8 cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <div class="menu-burger text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="sm:h-12 sm:w-12 h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
                         </div>
                 </div>
             </div>
     <!--Section 1 main content-->
-            <div class="section-one-content flex">
-                    <div class="section-one-content-left  mt-32 ml-48 pr-64">
-                        <div class="content-one  text-base tracking-widest text-gray-500 font-bold">
-                            WELCOME TO RMAN DEVS
+            <div class="section-one-content flex items-center ml-16 mr-10 mt-36 justify-center">
+                <div class="grid grid-cols-4 ">
+                        <div class="section-one-content-left col-span-3 xl:ml-32 xl:mr-64">
+                            <div class="content-one   text-base tracking-widest text-gray-500  font-medium">
+                               <p class="">WELCOME TO RMAN DEVS</p> 
+                            </div>
+                            <div class="content-two leading-normal ">
+                                <h1 class=" lg:leading-snug text-3xl sm:text-6xl    text-white ">We are a creative group
+                                of people who design
+                                influential brands and 
+                                digital experiences.
+                                </h1>
+                            </div>
                         </div>
-                        <div class="content-two text-6xl font-bold leading-normal text-white ">
-                            <h1>We are a creative group
-                             of people who design
-                            influential brands and 
-                             digital experiences.
-                            </h1>
-                        </div>
-                    </div>
                 <!--Section 1 right icons-->
-                    <div class="section-one-right-icon  text-white  m-auto  mr-10 pt-16 cursor-pointer">
+                    <div class="section-one-right-icon col-span-1 flex justify-end items-center  text-white  cursor-pointer  ">
+                        <div class="">
                             <div class="twitter mb-4 rounded-full border-2 w-8 h-8 flex justify-center items-center text-xl">
                                 <i class="fab fa-facebook-f text-sm "></i>
                             </div>
@@ -60,25 +63,29 @@
                             <div class="twitter  rounded-full border-2 w-8 h-8 flex justify-center items-center text-xl">
                                 <i class="fab fa-linkedin text-sm "></i>
                             </div>
+                        </div>
+                         
                     </div>
                 </div>
+            </div>
                 <!--Section 1 buttons-->
-                <div class="section-one-bottom ml-48 mt-16 flex">
-                    <div class="button-start-project p-4 mr-4 px-8 border-2 text-gray-200 tracking-widest">
-                        <h1>START  A PROJECT</h1>
-                    </div>
-                    <div class="button-about-us p-4 px-8 border-2 text-gray-200 tracking-widest">
-                        <h1>MORE ABOUT US</h1>
-                    </div>
+                <div class="section-one-bottom mx-16 xl:ml-48 sm: mt-16 flex text-xs sm:text-xl text-center flex items-center">
+                        <div class="button-start-project p-4 mr-4 px-8 border-2 text-gray-200 tracking-widest">
+                            <h1>START  A PROJECT</h1>
+                        </div>
+                        <div class="button-about-us p-4 px-8 border-2 text-gray-200 tracking-widest">
+                            <h1>MORE ABOUT US</h1>
+                        </div>
                 </div>
-                <div class="section-one-scroll-butoon text-white flex justify-end items-center mr-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                        <h3 class="tracking-widest text-xs mr-8">SCROLL DOWN</h3>
-                    <div class="home-content-line border-2 h-20 mt-16 border border-green-500 mr-4">
 
-                    </div>
+                <div class="section-one-scroll-butoon text-white flex justify-end items-center mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                            <h3 class="tracking-widest text-xs mr-8">SCROLL DOWN</h3>
+                        <div class="home-content-line border-2 h-20 mt-16 border border-green-500 mr-4">
+
+                        </div>
                 </div>                  
     </div>
     <div class="section-two h-full ">
@@ -264,7 +271,7 @@
         <h6 class="tracking-widest text-lg font-normal text-green-700 font-bold pb-4">OUR CLIENTS</h6>
         <h1 class="text-5xl px-16 pb-12 leading-normal ">Glint has been honored to partner up with these clients</h1>
     </div>
-    <div class="clientLogo text-gray-500  lg:mx-48 mt-4 flex justify-center items-center pb-12">
+    <div class="clientLogo text-gray-500   mt-4 flex justify-center items-center pb-12">
         <i class="fab fa-apple text-9xl cursor-pointer hover:text-black px-8"></i>
         <i class="fab fa-firefox-browser text-9xl cursor-pointer hover:text-black px-8"></i>
         <i class="fas fa-atom text-9xl cursor-pointer hover:text-black px-8"></i>
@@ -312,6 +319,6 @@
     </div>
     
  </div>
-
+</div>
 </body>
 </html>
